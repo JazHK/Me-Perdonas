@@ -262,7 +262,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
      
         case 17:
                 
-                document.getElementById('noBtn').innerHTML = 'por favooooooor hermosa, preciosa';
+                document.getElementById('noBtn').innerHTML = 'por favooooooor hermosa, preciosisimaaaa';
                 document.getElementById('noBtn').style.backgroundColor = '#F1330A';
               
                 document.getElementById('sadGifContainer').style.display = 'none';
