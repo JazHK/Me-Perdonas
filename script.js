@@ -251,13 +251,14 @@ document.getElementById('noBtn').addEventListener('click', function() {
 
             // Hacer que el botón "Sí" crezca
             document.getElementById('siBtn').style.fontSize = '280px';
-            document.getElementById('siBtn').style.padding = '180px 290px';
+            document.getElementById('siBtn').style.padding = '1000px 1000px';
           
             noButtonState++;
             break;
         
      
         case 17:
+                document.getElementById('noBtn').disabled = false;
                 document.getElementById('noBtn').innerHTML = 'por favooooooor hermosa';
                 document.getElementById('noBtn').style.backgroundColor = '#F1330A';
               
@@ -266,6 +267,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
                 document.getElementById('sadGifContainer2').style.display = 'none';
                 document.getElementById('gifContainer').style.display = 'block';
                 document.getElementById('happyGifContainer').style.display = 'none';
+                
                 // Vuelve al estado 0
                 noButtonState = 0;
                 break;
