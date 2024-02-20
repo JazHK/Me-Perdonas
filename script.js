@@ -51,7 +51,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
             document.getElementById('sadGifContainer').style.display = 'block';
 
             // Modificar el botón "No"
-            document.getElementById('noBtn').innerHTML = '¡Oh no! ¿Estás segura?';
+            document.getElementById('noBtn').innerHTML = '¿Estás segura chula?';
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
           
             
@@ -109,7 +109,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
             break;
         case 4:
            
-            document.getElementById('noBtn').innerHTML = 'Di que si por favor?';
+            document.getElementById('noBtn').innerHTML = 'Di que si por favor mi amor?';
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
 
             // Hacer que el botón "Sí" crezca
@@ -233,7 +233,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
         
         case 15:
            
-            document.getElementById('noBtn').innerHTML = 'Andale Siiiiiiiiiiiiiiiiiiiiiiiiiii??';
+            document.getElementById('noBtn').innerHTML = 'Siiiiiiiiiiiiiiiiiiii por favooooor, estoy muy triste??';
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
 
             // Hacer que el botón "Sí" crezca
@@ -242,9 +242,22 @@ document.getElementById('noBtn').addEventListener('click', function() {
           
             noButtonState++;
             break;
+
+
+        case 16:
+           
+            document.getElementById('noBtn').innerHTML = 'Andale Siiiiiiiiiiiiiiiiiiiiiiiiiii??';
+            document.getElementById('noBtn').style.backgroundColor = '#F1330A';
+
+            // Hacer que el botón "Sí" crezca
+            document.getElementById('siBtn').style.fontSize = '280px';
+            document.getElementById('siBtn').style.padding = '180px 290px';
+          
+            noButtonState++;
+            break;
         
      
-        case 16:
+        case 17:
                 document.getElementById('noBtn').innerHTML = 'por favooooooor hermosa';
                 document.getElementById('noBtn').style.backgroundColor = '#F1330A';
               
